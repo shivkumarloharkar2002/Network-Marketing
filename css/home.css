@@ -2,3 +2,58 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* navbar */
+.logosize{
+    height: 70px;
+}
+nav{
+    font-size: 18pt;
+}
+
+/* Carousel */
+    .imgs {
+        display: block;
+        margin: 0 auto 20px;
+        height: 500px;
+        width: 500px;
+    }
+
+
+/* div1 */
+.div1{
+    display: flex;
+    justify-content: space-around;
+}
+.d1h3 {
+    color: green;
+    font-size: 40px;
+}
+.d1p {
+    font-size: 28px;
+}
+@media (max-width: 768px) {
+    .d1h3 {
+        font-size: 30px;
+    }
+
+    .d1p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .d1h3 {
+        font-size: 20px;
+    }
+
+    .d1p {
+        font-size: 12px;
+    }
+}
+
+.d1img{
+    width: 400px;
+}

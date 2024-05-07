@@ -62,6 +62,11 @@ nav{
     
 }
 
+.ourvalue{
+    text-decoration: underline wavy rgb(63, 141, 63);
+
+}
+
 .we{
     color: rgb(209, 27, 233);
 }

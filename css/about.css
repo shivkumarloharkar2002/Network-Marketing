@@ -12,8 +12,8 @@ nav{
 .first-div{
     height: 150px;
     width: 100%;
-    background: rgb(241,192,247);
-    background: linear-gradient(90deg, rgba(241,192,247,1) 0%, rgba(164,241,162,1) 100%);
+    background: rgb(242,123,207);
+    background: linear-gradient(90deg, rgba(242,123,207,1) 0%, rgba(151,160,242,1) 100%);
     border-radius: 50%;
     margin-top: 20px;
     text-align: center;
@@ -81,8 +81,8 @@ nav{
 }
 
 .values{
-    background: rgb(241,192,247);
-    background: linear-gradient(90deg, rgba(241,192,247,1) 0%, rgba(164,241,162,1) 100%);
+    background: rgb(242,123,207);
+    background: linear-gradient(90deg, rgba(242,123,207,1) 0%, rgba(151,160,242,1) 100%);
 }
 
 .mission{
@@ -104,8 +104,8 @@ nav{
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    background: rgb(241,192,247);
-    background: linear-gradient(90deg, rgba(241,192,247,1) 0%, rgba(164,241,162,1) 100%);
+    background: rgb(242,123,207);
+    background: linear-gradient(90deg, rgba(242,123,207,1) 0%, rgba(151,160,242,1) 100%);
 }
 
 @media  screen and (max-width: 1002px) {
@@ -138,6 +138,6 @@ nav{
 }
 
 .last-head{
-    background: rgb(241,192,247);
-    background: linear-gradient(90deg, rgba(241,192,247,1) 0%, rgba(164,241,162,1) 100%);
+    background: rgb(242,123,207);
+    background: linear-gradient(90deg, rgba(242,123,207,1) 0%, rgba(151,160,242,1) 100%);
 }

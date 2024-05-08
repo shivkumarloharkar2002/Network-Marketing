@@ -2,3 +2,227 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    
+}
+
+/* navbar */
+.logosize{
+    height: 70px;
+}
+nav{
+    font-size: 18pt;
+    background: rgb(241,192,247);
+background: linear-gradient(90deg, rgba(241,192,247,1) 0%,
+rgba(164,241,162,1) 100%);
+}
+
+/* Carousel */
+    .imgs {
+        display: block;
+        margin: 0 auto 20px;
+        height: 500px;
+        width: 100vw;
+    }
+
+
+/* div1 */
+.div1{
+    background-image: url(./..//img/backgound.png);
+    display: flex;
+}
+.d1text{
+    /* width: 50%; */
+    margin:0 15px 0 20px;
+}
+.d1h3 {
+    color: green;
+    font-size: 40px;
+    font-weight: 400;
+}
+.d1p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #828282;
+    letter-spacing: .3px;
+    text-align: justify;
+}
+.d1p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: .3px;
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .d1h3 {
+        font-size: 30px;
+    }
+
+    .d1p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .d1h3 {
+        font-size: 20px;
+    }
+
+    .d1p {
+        font-size: 12px;
+    }
+}
+
+.imgd1{
+    width: 667px;
+}
+
+/* div 2 */
+.div2{
+    padding-top: 10px;
+    background-color: rgb(252,244,255);
+}
+
+.infoo {
+    /* text-align: left; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color: rgb(0, 0, 0);
+    font-size: 10pt;
+}
+
+.div4 {
+    width: 20%;
+    text-align: center;
+}
+
+.div4:hover { 
+    background: rgb(241,192,247);
+background: linear-gradient(90deg, rgba(241,192,247,1) 0%,
+rgba(164,241,162,1) 100%);
+    
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.imgicon {
+    display: block;
+    margin: 010px auto 20px;
+    height: 75px;
+    width: 75px;
+}
+
+/* div3 carousel minicards */
+.container1{
+	font-size: 10px;
+}
+.carouseldiv {
+	margin: 20px 0;
+}
+
+.parent {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0 20px;
+}
+
+.category-h {
+	/* font-style: oblique; */
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 3em;
+}
+
+.icon1 {
+	/* margin: 15px 0 15px 0 ; */
+	border-radius: 5px;
+	width: 240px;
+	/* height: 310px; */
+	background-color: rgb(243, 242, 242);
+}
+
+.icon {
+	margin: 15px 0 0 0;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid black;
+	
+}
+
+.icon:hover {
+
+	box-shadow: -10px 0px 13px -7px #000000a1, 10px 0px 13px -7px #00000099, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+	transition: 0.3s;
+}
+
+.photo {
+	display: block;
+	margin: 010px auto 10px;
+	align-items: center;
+	height: 160px;
+	width: 180px;
+}
+
+.name {
+	font-size: 1.9em;
+	font-weight: 600;
+	text-align: left;
+	display: block;
+	margin: 010px 10px 10px;
+}
+
+.pname {
+	font-size: 1.3em;
+	text-align: left;
+	display: block;
+	margin: 010px 10px 10px;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+}
+
+.button {
+background: linear-gradient(90deg, rgba(241,192,247,1) 0%,
+rgba(164,241,162,1) 100%);
+	border: none;
+	border-radius: 10px;
+	color: rgb(0, 0, 0);
+	padding: 9px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	margin: 010px auto 15px;
+}
+
+.button:hover {
+	background-image: linear-gradient(62deg, #70b3f5 0%, #c595f2 100%);
+	transform: 1s;
+}
+
+/* end */
+
+/* div 4 review carousel */
+.reviewimg {
+    display: block;
+    margin: 0 auto 20px;
+    height: 85px;
+    width: 85px;
+}
+
+/* footer */
+.mediaicons{
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+}
